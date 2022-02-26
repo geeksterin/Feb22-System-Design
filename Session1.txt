@@ -1,0 +1,82 @@
+Mobile
+Desktop 
+Tablet
+Tool smartwatch
+Drone -> 
+Website
+
+
+Making an application -> phases of development -> initiation & designing twitter clone for college ->  crowd? -> server/application
+
+ HLD                                               &                                              LLD
+Application/segments/functionalities/load/.         Data/variable/endpoints                       
+Senior roles		                                                                           0-3 years   Centralised & decentralised & distributed systems
+
+Example of request -> e-commerce website -> request (search for water bottles) -> response
+https://www.geeksforgeeks.org/comparison-centralized-decentralized-and-distributed-systems/ Centralised
+Global clock
+Computer -> logic -> CPU(running your program) 1 CPU  examples -> desktop gaming applications wiki, GTA, VLC  diadvs ->  single point of failure & backup hard to get
+Scaling is hard/ and sometimes impossible
+5 requests -> rest in queue   advs ->
+Data anaylsis 
+Local desktop/mobile application
+Speed & efficiency(data)  speed/latency-> get data from db+send data to server+send that data to node/client
+
+Decentralised
+Multiple CPUs advs
+If failure in some server nodes, then also request will be served, probably from available nodes
+Easy to scale(allowing to cater to more number of requests)
+
+-master-slave or peer-to-peer
+Challenges global clock maintenance cost
+Server costs
+Coordination b/w the nodes sometimes become a challenge
+Small systems 
+Cannot monitor one particular node’s health
+Cannot monitor a node’s behaviour
+
+Examples -> cryptocurrency, -> Blockchain
+Blockchain -> database(no update)
+Kanikacurrency -> 
+
+Airtel ->5500 ->wifi ->physical system(resources(RAM/memory),expand, memory)  Distributed System
+
+Centralised
+<M>->
+<> <> <>
+
+Decentralised
+<hyd> <M> <blr> <pun>
+<> <>
+
+- Load balance
+- Fault tolerance
+- Availability
+- Latency 
+- Fault tolerance
+- Throughput Availability
+- Latency 
+Latency -> time taken to perform an action related to data
+Adding something, deleting, updating
+Ur server -> connecting to database+ performing the query+return the result
+-sec, 
+
+Throughput-> how much data you can transfer in a given amount of time
+100bits per millisecond
+6000bpms
+
+Fault Tolerance -> if node fails/or a component fails
+
+Availability-> 
+
+
+
+
+
+
+
+
+
+
+
+
