@@ -1,0 +1,69 @@
+DB- sql vs nosql indexing - sql n nosql optimisation in database -> sql
+Partitioning & sharding
+Url shortening system design
+
+Databases - > sql/rdbms vs nosql/document/object based 
+Sql-> tables(employees, dependants) 					schema/type of data defined 					oracle, mysql, Postgres, etc
+					ACID -> atomicity, consistency, isolation, durability               vertically scalable               sql  nosql -> document based {id:1, name:”Kanika”}
+					 schema less                 Cassandra, mongodb, etc
+               BASE -> basically available, soft state, eventually 					 horizontal scalable                functions 
+3 nodes -> CAP theorem consistency -> 4 nodes -> everything needed to run server 		                                   and perform well 	if any updates -> all nodes should be sync
+
+Available  ->
+Partition tolerant
+
+Partitioning -horizontal/sharding -> table-> divide on the basis of columns, 
+Vertical-> dividing the data on some conditions, Indian db, china db  partitioning criterias ->
+1. Range
+2. Key or hash based -> studentid -> 1-> hash1
+<table1 - 50><table-99>
+<node1><node2><node3>
+hashFunc(id)%3
+hashFunc(id)%2
+
+Insert into student values(‘Rishabh’, 23);
+Hashxyz -> hashing algo -> hashxyz2 %2 =>0,1
+Insert into student values(‘Rohit’, 23);
+Hashxyz -> hashing algo -> hashxyz2 %2 =>0,1
+
+3. List partitioning -> [1,2,3,4,5] [0,6,7,8,9]
+4. RR -> 4 ->2, 2 -> consistency a problem in case of node failure
+5. composite ->  id, data size, -> consistent hashing -> counterclockwise assignment of node to data
+ problems in (sharding == horizontal partitioning = true-> 
+Joins
+Referencial integrity
+Re-distributing/rebalancing 1, kanika
+1, minu
+
+1, 23,  1, 23, 
+
+
+indexing - sql n nosql assigning a hash/key = index to the data stored in db 
+Students - id, name, age, score, classname, parents name
+
+-> access time
+-> insertion time
+-> space overhead
+-> deletion time
+-> access type
+
+
+Types of indexes ->
+1. Hash file -> dict(123 -> data1)
+2. Sequential (sorted)-> id(1,2,3,4,5,6,7,8,9,10), name(aman, anu, …)
+
+Hash file -> groups 
+Clustered - > grouped on classname
+Non cluster
+Students -> 
+Multilevel indexing -> 
+
+Indexing in nosql -> multiple nodes -> 
+1. Hashes ->
+2. B-tree
+
+
+
+
+
+

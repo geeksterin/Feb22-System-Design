@@ -1,105 +1,0 @@
-Scaling
-Load balancing
-Redundancy and replication in DS
-Caching 
-
-
-
-Scaling -> 
-Dairy mobile app in Jharkhand -> x + y million -> 1year
-4 nodes(Dairy mobile app)
-Horizontal                         vs                                          vertical 
- 
-Easy to implement                                                     easy to implement w 																																		limitations                                 more availability																				highly availability/ fault
-Increased performance ————— harder to maintain data consistency					no data inconsistency monitor all the nodes																	—————
-Increased cost																					lesser fault tolerance 
-																																single point of failure
-																																
-- Cost
-- How much u can expand in future
-- Geographical
-- How much data inconsistency is ok for my system
-- Complexity
- 
-Was/gcp/azure -> 3 active nodes-4GB/256 + 2 temporary nodes(4GB/256 ) putting your application 
-Deploy application
- application -> EC2 -> 3nodes, 2 extra
-Function/API -> serverless function dedicated ->, shared ->   Redundancy & Replication
-- Function, application, node, etc which is there more than the requirement  Replication
-- Data, service
-
-Reduced consistency
--> Question -> search how we manage consistency in a distributed system
-
-
-
-
-
-
-
-Caching
-Caches -> registers/fasted in data transfers/expensive
--> application/ in-memory
--> database
--> cart contents, user profile, games, 
-
-Database caching 
-A [apple, ant]
-B [Bat, Ball]
-
-For -[form, forming, fort]
-Lazy loading
-
-Cache Eviction Algo-> LRU & LFU
-LRU
-Form, fort, forg,fory, foru, fora
-Form-4, forming, fort, forjhgfdx-1, forkjhgf, fortjavc
-forming, fort, forjhgfdx, forkjhgf, fortjavc
-LFU
-Form-4, forjhgfdx-1, forkjhgf, fortjavc
-Form-4,fort-3,forn-1, forl1, forg2, forg4,tol1,forb1,forp3
-
-
-Caches types -> 
-Object(http, data, json, json, js),  key-value
-Redis, aerospkie, memcache
-In memory
-File
-
-<1, name, reviews, comments>
-Memcached
-Couch base
-Redis
-
-
-How to decide if u need a cache?
-- Do u anything you need quite frequently and whose value might not change that frequently
-- Should not be any secure information
-- 
-
-https://medium.datadriveninvestor.com/all-things-caching-use-cases-benefits-strategies-choosing-a-caching-technology-exploring-fa6c1f2e93aa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
