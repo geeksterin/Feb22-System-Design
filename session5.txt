@@ -1,0 +1,26 @@
+Web/application servers
+Communication protocols - tcp/udp
+Push and pulling models
+Polling
+Web sockets
+Server events
+Proxies
+Authentication and authorisation
+
+Api rate limiter
+
+Web/application servers
+ 
+Communication protocols
+Smtp, udp, tcp, http, rpc
+udp vs tcp
+messaging/video calling/audio calling
+Tcp- secure, handshake - > acknowledges 
+Udp  -> data packets are sent, and not ensured that they’re received
+
+http protocol -> json, file, 
+Smtp ->   Push and pulling models  Polling vs streaming  long and short  server events -> button click, mouse was hovered, scrolled,  -> time, counter ->count, user ->
+
+
+Web sockets
+Proxies ->     api rate limiter                            
